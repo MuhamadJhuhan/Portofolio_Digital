@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Muhamad Jhuhan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav>
+    <a href="#hero" class="nav-logo">Jhuhan<span>.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Beranda</a></li>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#skills">Keahlian</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag">👋 Selamat Datang</div>
+      <h1 class="hero-name">Muhamad<br>Jhuhan</h1>
+      <p class="hero-title">Front-End Developer & UI Designer</p>
+      <p class="hero-desc">Bikin website yang gak cuma keren diliat, tapi juga enak dipakai dan bikin betah.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">Lihat Karya</a>
+        <a href="#contact" class="btn btn-outline">Ngobrol Yuk</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title">Tentang Saya</h2>
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="image-frame">
+            <img src="image/jhuhan.png" alt="Foto Muhamad Jhuhan">
+          </div>
+        </div>
+        <div class="about-text">
+          <p>Nama saya muhamad jhuhan ix'sa alviano, saya lahir di Blitar, 1 juli 2009. Saya adalah individu yang memiliki semangat tinggi dalam belajar dan berkembang, dengan kemampuan adaptasi yang baik terhadap tantangan baru.</p>
+          <p>Berpengalaman dalam TKJ, serta terbiasa bekerja secara mandiri maupun dalam tim. Saya selalu mengutamakan ketelitian dan kreativitas. Di luar coding, saya suka ngopi, dengerin musik, dan jalan-jalan 🎧☕</p>
+          <!-- Tag about-stats diperbaiki -->
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number" data-target="2">0</span><span>+</span>
+              <span class="stat-label">Proyek</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-target="2">0</span><span>+</span>
+              <span class="stat-label">Klien</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-target="2">0</span><span>+</span>
+              <span class="stat-label">Tahun Pengalaman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">Keahlian</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <h3>HTML</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+          <h3>CSS</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+          <h3>JavaScript</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-figma"></i></div>
+          <h3>Figma</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+        </div>
+      </div> <!-- Penutup skills-grid yang hilang -->
+    </div> <!-- Penutup container yang hilang -->
+  </section> <!-- Penutup section skills yang hilang -->
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Proyek Terbaru</h2>
+      <div class="projects-grid">
+
+         <article class="project-card">
+          <div class="project-image">
+            <img src="image/web.png" alt="E-Commerce">
+            <div class="project-overlay">
+              <!-- Link Demo sudah diarahkan ke website kamu -->
+              <a href="https://muhamadjhuhan.github.io/website-industri/" target="_blank" rel="noopener noreferrer" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Demo</a>
+              <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>E-Commerce Platform</h3>
+            <p>Platform toko online lengkap dengan keranjang belanja, payment, dan manajemen produk.</p>
+            <div class="project-tags">
+              <span>Next.js</span><span>Stripe</span><span>MongoDB</span>
+            </div>
+          </div>
+        </article>
+
+      </div> <!-- Penutup projects-grid yang hilang -->
+    </div> <!-- Penutup container yang hilang -->
+  </section> <!-- Penutup section projects yang hilang -->
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Hubungi Saya</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>Punya proyek seru atau cuma mau ngobrol? Jangan ragu buat hubungi saya! Saya selalu terbuka buat diskusi ide-ide baru 🚀</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>jhuhanvino625@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+62 857 0734 9816</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Blitar, Indonesia</span>
+            </div>
+                  <div class="social-links">
+            <!-- Ganti username_jhuhan dengan username GitHub kamu -->
+            <a href="https://github.com/MuhamadJhuhan" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            
+            <!-- Ganti dengan link LinkedIn kamu -->
+            <a href="https://linkedin.com/in/Muhamad jhuhan" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            
+            <!-- Ganti dengan link Instagram kamu -->
+            <a href="https://instagram.com/jhuhan_" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Nama kamu" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Email kamu" required>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder="Subjek" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Tulis pesan kamu di sini..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Kirim Pesan
+          </button>
+          <div class="form-message" id="formMessage"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container footer-inner">
+      <p>Dibuat dengan ☕ & ❤️ — © 2026 Muhamad Jhuhan Ixsa Alviano</p>
+      <a href="#hero" class="back-to-top" aria-label="Kembali ke atas">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
